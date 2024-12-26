@@ -124,7 +124,7 @@ header .themeSelector .activeTheme {
 }
 
 .showTask .clearAll {
-  background-color: #cc461dc7;
+  background-color: crimson;
   color: #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -134,7 +134,7 @@ header .themeSelector .activeTheme {
 }
 
 .showTask .clearAll:hover {
-  background-color: #d53114;
+  transform: scale(1.05);
   transition: 0.5s;
 }
 
@@ -142,7 +142,8 @@ header .themeSelector .activeTheme {
   margin: 30px 5px 20px 5px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
 }
@@ -152,7 +153,7 @@ header .themeSelector .activeTheme {
   border-bottom: 1px solid #e5e5e5;
   display: flex;
   gap: 5px;
-  width: 350px;
+  width: 300px;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
   border-left: 5px solid rgb(14, 140, 14);
@@ -194,8 +195,31 @@ header .themeSelector .activeTheme {
   color: rgb(223, 40, 40);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 675px) {
   .showTask li {
-    width: 100%;
+    width: 75%;
+  }
+  .showTask ul {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .showTask li {
+    width: 95%;
+  }
+  .addTask form {
+    flex-direction: column;
+    button {
+      width: 35%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  header {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 2rem;
   }
 }

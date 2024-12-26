@@ -38,7 +38,7 @@ export const AddTask = ({ tasklist, setTasklist, task, setTask, theme }) => {
           value={task.name || ""}
           autoComplete="off"
           placeholder="add task"
-          maxLength="25"
+          maxLength="13"
           onChange={(e) => setTask({ ...task, name: e.target.value })}
         />
         <button className={theme} type="submit">

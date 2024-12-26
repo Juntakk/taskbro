@@ -21,7 +21,7 @@
 }
 
 .medium {
-  background-color: #afafaf;
+  background-color: #979797;
   transition: all 500ms;
 }
 
@@ -44,7 +44,7 @@
     linear-gradient(
       235deg,
       #ffa3ac 0%,
-      #ffa3ac 40%,
+      #1d090b 40%,
       #0eae11 calc(40% + 1px),
       #a11a67 60%,
       #19aec5 calc(60% + 1px),
@@ -60,7 +60,7 @@
       #b70ca3 60%,
       #955bd7 calc(60% + 1px),
       #005d6c 70%,
-      #0cef27 calc(70% + 1px),
+      #0f4f17 calc(70% + 1px),
       #00c9b1 100%
     );
   background-blend-mode: soft-light, screen, darken, normal;
@@ -82,9 +82,9 @@
     ),
     linear-gradient(
       113deg,
-      #ffd9e8 0%,
-      #ffd9e8 40%,
-      #de95ba calc(40% + 1px),
+      #d6427d 0%,
+      #631c38 40%,
+      #731e48 calc(40% + 1px),
       #de95ba 50%,
       #7f4a88 calc(50% + 1px),
       #7f4a88 70%,
